@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Anna",
+      "age": 18
+    },
+    {
+      "id": 3,
+      "name": "Amina",
+      "age": 19
+    },
+    {
+      "name": "david",
+      "age": "15",
+      "id": 5
+    },
+    {
+      "name": "Aнабель",
+      "age": "14",
+      "id": 6
+    },
+    {
+      "name": "канат ",
+      "age": "34",
+      "id": 7
+    },
+    {
+      "name": "beksultan",
+      "age": "19",
+      "id": 8
+    }
+  ]
+}

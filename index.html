@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Crud</title>
+</head>
+<body>
+    <h1 class="title">Список получененных данных через запрос</h1>
+    <form action="#" class="form form--add">
+        <input type="text" name="name" class="input add-input">
+        <input type="number" name="age" class="input add-input">
+        <button class="greate-user">Добавить</button>
+    </form>
+    <main class="main">
+        <div class="root"></div>
+    </main>
+    <div id="root-modal">
+        <div class="modal">
+            <form action="#" class="form modal-form">
+                <div class="modal-form__header">
+                    <h2 class="cart-title">Изменить данные</h2>
+                    <span class="modal-close">X</span>
+                </div>
+                <input type="text" name="name" class="input update--input">
+                <input type="number" name="age" class="input update--input">
+                <button class="modal-btn update-cart">Изменить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
